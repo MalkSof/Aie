@@ -32,8 +32,9 @@
     <div class="col-sm">
       <form method="POST" action="{{route('checkout.store')}}">
  	{{ csrf_field()}}
+   <input type="hidden" value="{{$newtotal}}" name="total">
 <!--<h3>Entrega</h3>
- <input type="hidden" value="{{$newtotal}}" name="total">
+
 <div id="myRadioGroup" >
 <div class="form-check form-check-inline">
   <input checked="checked" class="form-check-input" type="radio" name="retiro" id="inlineRadio1" value="1">
@@ -79,12 +80,19 @@
   <h4>Reservar Mesa Para:</h4>
  <div class="form-group">
    
-    <select class="form-control" id="exampleFormControlSelect1">
+    <select  class="form-control" id="exampleFormControlSelect1">
       <option>0 personas</option>
       <option>1 persona</option>
       <option>2 personas</option>
       <option>3 personas</option>
-      <option>5</option>
+      <option>4 personas</option>
+      <option>6 personas</option>
+      <option>7 personas</option>
+      <option>8 personas</option>
+      <option>9 personas</option>
+      <option>10 personas</option>
+      <option>11 personas</option>
+      <option>12 personas</option>
     </select>
   </div>
 
