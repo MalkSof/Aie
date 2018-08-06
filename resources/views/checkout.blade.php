@@ -76,14 +76,16 @@
  	
   -->
 
-  <h3>Reservar Mesa</h3>
-      <div class="form-check form-check-inline">
-    <input  checked="checked" class="form-check-input" type="radio" name="pago"  value="1">
-    <label class="form-check-label" for="inlineRadio1">En efectivo</label>
-  </div>
-  <div class="form-check form-check-inline">
-    <input   class="form-check-input" type="radio" name="pago" value="2">
-    <label class="form-check-label" for="inlineRadio2">Mercado Pago</label>
+  <h4>Reservar Mesa Para:</h4>
+ <div class="form-group">
+   
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>0 personas</option>
+      <option>1 persona</option>
+      <option>2 personas</option>
+      <option>3 personas</option>
+      <option>5</option>
+    </select>
   </div>
 
     <div >
