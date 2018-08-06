@@ -33,6 +33,9 @@
       <form method="POST" action="{{route('checkout.store')}}">
  	{{ csrf_field()}}
    <input type="hidden" value="{{$newtotal}}" name="total">
+
+
+   
 <!--<h3>Entrega</h3>
 
 <div id="myRadioGroup" >
