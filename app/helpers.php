@@ -1,5 +1,4 @@
 <?php
-
 use App\Beraja ; 
 
 function imagenProducto($path)
@@ -9,12 +8,12 @@ function imagenProducto($path)
 	if (isset($path)) {
 		# code..
 
-		return asset('storage/' . $path);
+		return  Voyager::image(   $path);
 	}
 	else
 	{
 		
-		return  asset('storage/imagen_no_disponible.png');
+		return Voyager::image( 'imagen_no_disponible.png');
 	}
 }
  function beraja($id)
