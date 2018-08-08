@@ -23,12 +23,10 @@ class LandingPageController extends Controller
         if (setting('site.horario')>= date("H:i")) {
               # code...
             session()->put('fecha',date('Y-m-d'));
-            echo "mal";
+            
           }
           else{
             session()->put('fecha',date('Y-m-d', strtotime(date('Y-m-d'). ' + 1 days')));
-            echo date('Y-m-d', strtotime(date('Y-m-d'). ' + 1 days'));
-            echo "bien";
           }  
         
         
