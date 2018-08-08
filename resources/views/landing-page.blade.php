@@ -152,7 +152,7 @@ use Illuminate\Support\Facades\DB;
                                         }
 
                                         ?>
-                                      {{$comida->descripcion}}
+                                      <?php echo $comida->descripcion ; ?>
 
                                       <div class="form-group">
                                           <label for="exampleFormControlTextarea1">Instrucciones Adicionales</label>

@@ -77,12 +77,13 @@ class CheckoutController extends Controller
 
         $fecha = session()->get('fecha');
            
-           
+
         $pedido = Pedido::create([
             'user_id' => Auth::user()->id,
             'pago' => '',
             'total' => $request->total,
-            'fecha' => $fecha
+            'fecha' => $fecha,
+            'mesa' =>  (int)$request->mesa
         ]);
         foreach (Cart::content() as  $item) {
             # code...
