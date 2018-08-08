@@ -60,7 +60,7 @@ use Illuminate\Support\Facades\DB;
                 <div >
                   
                     <h1>Aieka</h1>
-                    <p>Aieka pedidos es la nueva aplicación que te ayudara a que puedas reservar tu almuerzo, asi no te demoras.</p>
+                    <p>Aieka pedidos es la nueva aplicación que te ayudara a que puedas reservar tu almuerzo, asi no te demoras</p>
                     
                 </div> <!-- end hero-copy -->
 
