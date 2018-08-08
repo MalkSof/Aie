@@ -8,7 +8,7 @@ use App\Comida;
 class Pedido extends Model
 {
     //
-    protected $fillable =['id','user_id', 'pago','total','fecha'];
+    protected $fillable =['id','user_id', 'pago','total','fecha','mesa'];
            
       
     public function user()

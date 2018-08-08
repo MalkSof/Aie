@@ -83,19 +83,23 @@
   <h4>Reservar Mesa Para:</h4>
  <div class="form-group">
    
-    <select  class="form-control" id="exampleFormControlSelect1">
-      <option>0 personas</option>
-      <option>1 persona</option>
-      <option>2 personas</option>
-      <option>3 personas</option>
-      <option>4 personas</option>
-      <option>6 personas</option>
-      <option>7 personas</option>
-      <option>8 personas</option>
-      <option>9 personas</option>
-      <option>10 personas</option>
-      <option>11 personas</option>
-      <option>12 personas</option>
+    <select name="mesa"  class="form-control" id="exampleFormControlSelect1">
+      <option value="0">0 personas</option>
+      <option value="1">1 persona</option>
+      <option value="2">2 personas</option>
+      <option value="3">3 personas</option>
+      <option value="4">4 personas</option>
+      <option value="5">5 personas</option>
+      <option value="6">6 personas</option>
+      <option value="7">7 personas</option>
+      <option value="8">8 personas</option>
+      <option value="9">9 personas</option>
+      <option value="10">10 personas</option>
+      <option value="11">11 personas</option>
+      <option value="12">12 personas</option>
+      <option value="13">13 personas</option>
+      <option value="14">14 personas</option>
+      <option value="15">15 personas</option>
     </select>
   </div>
 

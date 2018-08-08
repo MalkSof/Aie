@@ -20,8 +20,18 @@ class LandingPageController extends Controller
     {
         $comida = Comida::inRandomOrder()->where(date('D') , '1')->get();
        
+        if (setting('site.horario')>= date("H:i")) {
+              # code...
+            session()->put('fecha',date('Y-m-d'));
+            echo "mal";
+          }
+          else{
+            session()->put('fecha',date('Y-m-d', strtotime(date('Y-m-d'). ' + 1 days')));
+            echo date('Y-m-d', strtotime(date('Y-m-d'). ' + 1 days'));
+            echo "bien";
+          }  
         
-        session()->put('fecha',date('Y-m-d'));
+        
     
         
         return view('landing-page')->with('comidas', $comida);
