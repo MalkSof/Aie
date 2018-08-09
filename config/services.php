@@ -37,7 +37,7 @@ return [
     'google' => [
         'client_id' => '448201046928-63hv02mhbnrurl9nauq7t9b4vs7i1sab.apps.googleusercontent.com',        // Your GitHub Client ID
         'client_secret' => 'jZcMLuEyoUga1SbQTTtBQYSD', // Your GitHub Client Secret
-        'redirect' => 'http://localhost/BuenProvecho/blog/public/login/google/callback',
+        'redirect' => 'http://yatay.aieka.com.ar/login/google/callback',
     ],
 
 ];
