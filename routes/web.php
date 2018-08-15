@@ -13,6 +13,11 @@
 use Gloudemans\Shoppingcart\Facades\Cart;
 use App\Mail\PedidoHecho;
 
+Route::post('/admin/puntos', 'PuntosController@com')->name('puntos.com');
+
+
+
+
 Route::get('/', 'LandingPageController@index')->name('landing-page');
 
 Route::get('/shop', 'ShopController@index')->name('shop.index');
