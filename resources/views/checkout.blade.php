@@ -66,7 +66,7 @@
     <small id="emailHelp" class="form-text text-muted">Es para identificar a quien le entregaremos la comida</small>
   </div>
     </div>
-     -->
+    <!--
 <h3>Pago</h3>
 
 	<div class="form-check form-check-inline">
@@ -77,7 +77,7 @@
 	  <input   class="form-check-input" type="radio" name="pago" value="2">
 	  <label class="form-check-label" for="inlineRadio2">Mercado Pago</label>
 	</div>
-
+-->
  	
  
 
