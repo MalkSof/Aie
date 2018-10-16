@@ -77,7 +77,7 @@
 	  <input   class="form-check-input" type="radio" name="pago" value="2">
 	  <label class="form-check-label" for="inlineRadio2">Mercado Pago</label>
 	</div>
--->
+
  	
  
 
@@ -103,7 +103,7 @@
       <option value="15">15 personas</option>
     </select>
   </div>
-
+-->
     <div >
 <input value="Confirmar"  type="submit" class="btn btn-primary btn-lg"></input>
 
