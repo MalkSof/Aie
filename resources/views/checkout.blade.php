@@ -36,7 +36,7 @@
 
 
    
-<!--<h3>Entrega</h3>
+<h3>Entrega</h3>
 
 <div id="myRadioGroup" >
 <div class="form-check form-check-inline">
@@ -66,6 +66,7 @@
     <small id="emailHelp" class="form-text text-muted">Es para identificar a quien le entregaremos la comida</small>
   </div>
     </div>
+     -->
 <h3>Pago</h3>
 
 	<div class="form-check form-check-inline">
@@ -78,7 +79,7 @@
 	</div>
 
  	
-  -->
+ 
 
   <h4>Reservar Mesa Para:</h4>
  <div class="form-group">
