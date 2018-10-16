@@ -80,7 +80,7 @@ class CheckoutController extends Controller
 
         $pedido = Pedido::create([
             'user_id' => Auth::user()->id,
-            'pago' => '',
+            'pago' => $request->nombrechico,
             'total' => $request->total,
             'fecha' => $fecha,
             'mesa' =>  (int)$request->mesa
