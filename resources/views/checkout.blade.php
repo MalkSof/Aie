@@ -62,7 +62,7 @@
     <div id="Retiro2" class="desc" style="display: none;">
         <div class="form-group">
     <label for="exampleInputEmail1">Nombre y apellido del Chico</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa Nombre" >
+    <input type="text" class="form-control" id="exampleInputEmail1" name="nombrechico" aria-describedby="emailHelp" placeholder="Ingresa Nombre" >
     <small id="emailHelp" class="form-text text-muted">Es para identificar a quien le entregaremos la comida</small>
   </div>
     </div>
