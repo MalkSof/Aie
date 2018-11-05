@@ -7,7 +7,7 @@
 <script src="//platform-api.sharethis.com/js/sharethis.js#property=5b634641f3742d0012c886fa&product=inline-follow-buttons"></script>
 
 <div class="sharethis-inline-follow-buttons"></div>
-
+<h1>Tu Pedido se ha relizado con exito</h1>
 
 <div class="jumbotron">
   <h1 class="display-4">Berajot</h1>
